@@ -7,3 +7,4 @@
 - [Dan McCune](https://github.com/DannMcC)
 - [Miguel Malcolm](https://github.com/m1g)
 - [Brian Bycynski](https://github.com/bdog72)
+- [Chris Kramer](https://github.com/chriskramer2020)
