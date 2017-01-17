@@ -2,4 +2,4 @@
 
 ## Contributors
 
-[Jason L Perry](@ambethia)
+[Jason L Perry](https://github.com/ambethia)
