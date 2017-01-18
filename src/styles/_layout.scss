@@ -1,5 +1,6 @@
 @import 'utility';
 
+
 .navBar {
   nav {
     overflow: hidden;
@@ -29,5 +30,25 @@
     &.hidden {
       // display: none;
     }
+    
+.top-bar {
+  display: flex;
+  align-items: center;
+
+  .nav-button {
+    height: 50px;
+    width: 100px;
+  }
+
+  h1 {
+    flex: 1;
+  }
+
+  .login-button {
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    //flex: 1;
+
   }
 }

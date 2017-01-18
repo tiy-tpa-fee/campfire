@@ -1,6 +1,6 @@
 import React, { Component, PropTypes as T } from 'react'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
-import { Home, Layout, Submit, SearchResults, Category } from '.'
+import { Home, Layout, Submit, SearchResults, Category, StoryItem } from '.'
 import { auth } from '../utils/AuthService'
 
 export default class App extends Component {
@@ -23,6 +23,7 @@ export default class App extends Component {
         <Route path='search' component={SearchResults} />
         <Route path='submit' component={Submit} onEnter={auth.required} />
         <Route path='c/:tag' component={Category} />
+        <Route path='StoryItem' component={StoryItem} />
       </Route>
     </Router>
   }
