@@ -21,7 +21,7 @@ export default class App extends Component {
       <Route path='/' component={Layout}>
         <IndexRoute component={Home} />
         <Route path='search' component={SearchResults} />
-        <Route path='submit' component={Submit} onEnter={auth.required} />
+        <Route path='submit' component={Submit} />
         <Route path='c/:tag' component={Category} />
         <Route path='StoryItem' component={StoryItem} />
       </Route>
