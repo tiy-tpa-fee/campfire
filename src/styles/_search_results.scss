@@ -1,1 +1,13 @@
 @import 'utility';
+
+.searchResultsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  flex-wrap: wrap;
+
+  li {    
+    flex-basis: 25%;
+  }
+}
