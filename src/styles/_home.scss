@@ -1,41 +1,41 @@
 @import 'utility';
 
-html {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
+// html {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   align-content: center;
+// }
 
-main {
-  background-color: white;
-  flex-direction: column;
-}
+// main {
+//   background-color: white;
+//   flex-direction: column;
+// }
 
-header {
-  width: auto;
-  height: 400px;
-  background-image: image();
-}
+// header {
+//   width: auto;
+//   height: 400px;
+//   background-image: image();
+// }
 
-body {
-}
+// body {
+// }
 
-div.trending {
-  ul {
-    list-style: none;
-    li {
-    }
-  }
-}
+// div.trending {
+//   ul {
+//     list-style: none;
+//   li{
+//     }
+//   }
+// }
 
-div.staff-picks {
-  ul {
-    list-style: none;
-    li {
-    }
-  }
-}
+// div.staff-picks {
+//   ul {
+//     list-style: none;
+//     li {
+//     }
+//   }
+// }
 
 h2 {
   font-family: 'Fjalla One', sans-serif;
