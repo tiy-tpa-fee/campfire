@@ -1,5 +1,6 @@
 @import 'utility';
 
+
 // Trending Topics
 
 .trending {
@@ -27,4 +28,18 @@
   h2 {
     margin-top: 0;
   }
+  
+// StaffPicks below
+div.staff-picks {
+  display: flex;
+  flex-direction: column;
+
+  ul {
+    list-style-type: none;
+
+    li {
+
+    }
+  }
+
 }
