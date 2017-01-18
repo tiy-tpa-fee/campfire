@@ -10,7 +10,7 @@ export default class Home extends Component {
   render () {
     return <div className='layout'>
       <header>
-        <h1>Campfire</h1>
+        <h1>CAMPFIRE</h1>
         <SignInButton />
       </header>
       <main>{this.props.children}</main>
