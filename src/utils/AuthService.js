@@ -13,6 +13,7 @@ export default class AuthService {
         }
         this.profile = profile
         this.token = authResult.idToken
+        this.onUpdate && this.onUpdate()
       })
     })
   }
@@ -24,6 +25,7 @@ export default class AuthService {
   signOut () {
     window.localStorage.removeItem('id_token')
     window.localStorage.removeItem('profile')
+    this.onUpdate && this.onUpdate()
   }
 
   required (nextState, replace) {
