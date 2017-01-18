@@ -1,9 +1,2 @@
-@mixin font-smoothing($value: on) {
-  @if $value == on {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-  } @else {
-    -moz-osx-font-smoothing: auto;
-    -webkit-font-smoothing: subpixel-antialiased;
-  }
-}
+$base-text-size: 16px;
+$base-font-family: sans-serif;
