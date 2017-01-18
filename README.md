@@ -1,5 +1,18 @@
 # Campfire
 
+## Setup
+
+Copy the empty .env file and add an Auth0 API token (ask someone for it).
+
+```
+cp .env.example .env
+```
+
+```
+yarn
+yarn start
+```
+
 ## Contributors
 
 - [Jason L Perry](https://github.com/ambethia)

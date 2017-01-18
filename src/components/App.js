@@ -1,12 +1,27 @@
-import React, { Component } from 'react'
+import React, { Component, PropTypes as T } from 'react'
+import { Router, Route, IndexRoute, browserHistory } from 'react-router'
+import { Home, Layout, Submit } from '.'
+import { auth } from '../utils/AuthService'
 
-class App extends Component {
+export default class App extends Component {
+
+  static propTypes = {
+    route: T.object
+  }
+
+  constructor (props) {
+    super(props)
+
+    // Trigger a re-render when the auth state has changed.
+    auth.onUpdate = () => this.forceUpdate()
+  }
 
   render () {
-    return <div>
-      <h1>Hello, World!</h1>
-    </div>
+    return <Router history={browserHistory}>
+      <Route path='/' component={Layout}>
+        <IndexRoute component={Home} />
+        <Route path='submit' component={Submit} onEnter={auth.required} />
+      </Route>
+    </Router>
   }
 }
-
-export default App
