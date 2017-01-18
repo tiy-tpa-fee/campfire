@@ -1,17 +1,16 @@
 @import 'utility';
 
+//
+// .top-box-cat {
+//   display: flex;
 
-.top-box-cat {
-  display: flex;
-
-  .trending {
-    flex: 2;
-  }
-
-  .staff-pick {
-    flex: 1;
-  }
-
+// .trending {
+//   flex: 2;
+// }
+//
+// .staff-pick {
+//   flex: 1;
+// }
 
 // Trending Topics
 
@@ -40,7 +39,8 @@
   h2 {
     margin-top: 0;
   }
-  
+}
+
 // StaffPicks below
 div.staff-picks {
   display: flex;
@@ -48,10 +48,5 @@ div.staff-picks {
 
   ul {
     list-style-type: none;
-
-    li {
-
-    }
   }
-
 }
