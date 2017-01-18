@@ -6,13 +6,15 @@ export default class Category extends Component {
 
   render () {
     return (
-      <div>
+      <div className='category'>
         <h1>Category</h1>
-        <div>
-          <Trending />
-        </div>
-        <div>
-          <StaffPicks />
+        <div className='top-box-cat'>
+          <div className='trending'>
+            <Trending />
+          </div>
+          <div className='staff-pick'>
+            <StaffPicks />
+          </div>
         </div>
       </div>
     )

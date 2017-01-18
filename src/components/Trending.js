@@ -4,6 +4,7 @@ export default class Trending extends Component {
 
   render () {
     return (
+
       <div className='trending'>
         <h2>Trending Posts</h2>
         <div className='trending-main'>
@@ -22,6 +23,7 @@ export default class Trending extends Component {
             <p>[upvotes, username, timestamp, login to comment]</p>
           </div>
         </div>
+
       </div>
     )
   }
