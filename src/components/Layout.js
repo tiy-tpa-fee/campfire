@@ -1,5 +1,5 @@
 import React, { Component, PropTypes as T } from 'react'
-import { SignInButton } from '.'
+import { SignInButton, Navbar } from '.'
 
 export default class Home extends Component {
 
@@ -9,8 +9,12 @@ export default class Home extends Component {
 
   render () {
     return <div className='layout'>
+      <Navbar />
       <header>
         <h1>CAMPFIRE</h1>
+      <header className='top-bar'>
+        <button className='nav-button' />
+        <h1>Campfire</h1>
         <SignInButton />
       </header>
       <main>{this.props.children}</main>
