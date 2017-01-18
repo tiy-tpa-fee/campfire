@@ -1,1 +1,33 @@
 @import 'utility';
+
+.navBar {
+  nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: hsla(0, 0%, 20%, 0.8);
+    transition: transform 200ms ease;
+    width: 200px;
+    transform: translateX(0);
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    &.hidden {
+      transform: translateX(-200px);
+    }
+  }
+
+  button.menu {
+    &.hidden {
+      // display: none;
+    }
+  }
+}
