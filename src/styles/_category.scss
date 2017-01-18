@@ -1,1 +1,13 @@
 @import 'utility';
+
+.top-box-cat {
+  display: flex;
+
+  .trending {
+    flex: 2;
+  }
+
+  .staff-pick {
+    flex: 1;
+  }
+}

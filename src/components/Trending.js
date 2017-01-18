@@ -6,6 +6,7 @@ export default class Trending extends Component {
     return (
       <div>
         <h1>Test</h1>
+
       </div>
     )
   }
