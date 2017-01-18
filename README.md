@@ -15,15 +15,16 @@ yarn start
 
 ## Contributors
 
-- [Jason L Perry](https://github.com/ambethia)
-- [Caleb Frost Sanderson](https://github.com/cfsanderson)
-- [Dan McCune](https://github.com/DannMcC)
-- [Miguel Malcolm](https://github.com/m1g)
 - [Brian Bycynski](https://github.com/bdog72)
-- [Chris Kramer](https://github.com/chriskramer2020)
 - [Bru Wills](https://github.com/khrondon)
-- [Liz Tiller](https://github.com/lizthrilla)
+- [Caleb Frost Sanderson](https://github.com/cfsanderson)
+- [Chris Kramer](https://github.com/chriskramer2020)
 - [Christa Hegedus](https://github.com/cmhfl92)
+- [Dan McCune](https://github.com/DannMcC)
+- [Jason L Perry](https://github.com/ambethia)
+- [Liz Tiller](https://github.com/lizthrilla)
+- [Miguel Malcolm](https://github.com/m1g)
+- [Sara Toftegaard](https://github.com/satoftegaard)
 
 ### To start your work...
 - cd into the `/tiy/campfire directory`
