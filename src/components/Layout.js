@@ -11,6 +11,7 @@ export default class Home extends Component {
     return <div className='layout'>
       <Navbar />
       <header>
+        <h1>CAMPFIRE</h1>
       <header className='top-bar'>
         <button className='nav-button' />
         <h1>Campfire</h1>
