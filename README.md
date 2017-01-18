@@ -11,3 +11,22 @@
 - [Bru Wills](https://github.com/khrondon)
 - [Liz Tiller](https://github.com/lizthrilla)
 - [Christa Hegedus](https://github.com/cmhfl92)
+
+### To start your work...
+- cd into the `/tiy/campfire directory`
+- `$ git checkout master`
+- `$ git pull`
+- `$ git checkout -b name-of-your-branch`
+- `$ atom .`
+
+Now get to work!
+
+### When you are ready to push your work...
+- save your work in Atom and then switch over to terminal
+- `git add .`
+- `git commit -m 'your message here'`
+- `git push origin name-of-your-branch`
+- `hub browse`
+(hub browse should open up the repo in GitHub for you)
+- in GitHub you should click on green "Compare & Pull Request"
+- type in necessary fields in following screens and then click the green "Create Pull Request" button.
