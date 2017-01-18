@@ -1,1 +1,30 @@
 @import 'utility';
+
+// Trending Topics
+
+.trending {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  .trending-main {
+    display: flex;
+    padding-bottom: 20px;
+
+    img {
+      padding-right: 10px;
+    }
+  }
+
+  .trending-sub {
+    display: flex;
+
+    img {
+      padding-right: 10px;
+    }
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+}
