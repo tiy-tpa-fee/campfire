@@ -21,8 +21,11 @@
   padding: 10px;
   border: solid 2px #c82323;
 
+  p {
+    margin-bottom: 0;
+  }
+
   .trending-main {
-    height: 350px;
     border-bottom: 5px solid teal;
     margin-bottom: 50px;
 
@@ -33,7 +36,6 @@
   }
 
   .trending-sub {
-    height: 150px;
     border-bottom: 5px solid yellow;
     margin-bottom: 20px;
 
@@ -45,12 +47,14 @@
 
   .trending-main,
   .trending-sub {
-    display: flex;
-    align-content: center;
+    img {
+      float: left;
+    }
 
-    div {
-      padding: 20px;
-      overflow: hidden;
+    .content {
+      float: left;
+      width: 300px;
+      margin: 10px 0 10px 10px;
     }
   }
 
