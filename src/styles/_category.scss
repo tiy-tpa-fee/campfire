@@ -20,23 +20,40 @@
   padding: 10px;
 
   .trending-main {
-    display: flex;
-    padding-bottom: 20px;
+    height: 350px;
+    border-bottom: 5px solid teal;
+    margin-bottom: 50px;
 
     img {
-      padding-right: 10px;
+      width: 350px;
+      height: 350px;
     }
   }
 
   .trending-sub {
-    display: flex;
+    height: 150px;
+    border-bottom: 5px solid yellow;
+    margin-bottom: 20px;
 
     img {
-      padding-right: 10px;
+      width: 350px;
+      height: 150px;
     }
   }
 
-  h2 {
+  .trending-main,
+  .trending-sub {
+    display: flex;
+    align-content: center;
+
+    div {
+      padding: 20px;
+      overflow: hidden;
+    }
+  }
+
+  h2,
+  h3 {
     margin-top: 0;
   }
 }
