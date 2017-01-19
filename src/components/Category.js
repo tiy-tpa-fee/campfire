@@ -12,7 +12,7 @@ export default class Category extends Component {
           <div className='trending'>
             <Trending />
           </div>
-          <div className='staff-pick'>
+          <div className='staff-picks'>
             <StaffPicks />
           </div>
         </div>

@@ -10,36 +10,55 @@ export default class StaffPicks extends Component {
         <ul>
           <li>
             <a href='https://github.com/tiy-tpa-fee/campfire'>
-              <img src='http://i.imgur.com/R57UyhD.png' />
+              <img src='http://i.imgur.com/R57UyhD.png' width='100%' />
             </a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className='abstract'>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
+              <aside>[upvotes, username, timestamp, login to comment]</aside>
+              <button>Read More.</button>
+            </div>
           </li>
           <li>
             <a href='https://github.com/tiy-tpa-fee/campfire'>
-              <img src='http://i.imgur.com/uHTNkOp.png' />
+              <img src='http://i.imgur.com/uHTNkOp.png' width='100%' />
             </a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className='abstract'>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
+              <aside>[upvotes, username, timestamp, login to comment]</aside>
+              <button>Read More.</button>
+            </div>
           </li>
           <li>
             <a href='https://github.com/tiy-tpa-fee/campfire'>
-              <img src='http://i.imgur.com/baBL0H5.png' />
+              <img src='http://i.imgur.com/baBL0H5.png' width='100%' />
             </a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className='abstract'>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
+              <aside>[upvotes, username, timestamp, login to comment]</aside>
+              <button>Read More.</button>
+            </div>
           </li>
           <li>
             <a href='https://github.com/tiy-tpa-fee/campfire'>
-              <img src='http://i.imgur.com/7pNQKAT.png' />
+              <img src='http://i.imgur.com/7pNQKAT.png' width='100%' />
             </a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className='abstract'>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
+              <aside>[upvotes, username, timestamp, login to comment]</aside>
+              <button>Read More.</button>
+            </div>
           </li>
           <li>
             <a href='https://github.com/tiy-tpa-fee/campfire'>
-              <img src='http://i.imgur.com/jf6Bu5Z.png' />
+              <img src='http://i.imgur.com/jf6Bu5Z.png' width='100%' />
             </a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className='abstract'>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
+              <aside>[upvotes, username, timestamp, login to comment]</aside>
+              <button>Read More.</button>
+            </div>
           </li>
         </ul>
-
       </div>
     )
   }

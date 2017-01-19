@@ -1,23 +1,25 @@
 @import 'utility';
 
 //
-// .top-box-cat {
-//   display: flex;
+.top-box-cat {
+  display: flex;
+  border: solid 2px rebeccapurple;
 
-// .trending {
-//   flex: 2;
-// }
-//
-// .staff-pick {
-//   flex: 1;
-// }
+  .trending {
+    flex: 2;
+  }
 
+  .staff-picks {
+    flex: 1;
+  }
+}
 // Trending Topics
 
 .trending {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  border: solid 2px #c82323;
 
   .trending-main {
     display: flex;
@@ -42,11 +44,27 @@
 }
 
 // StaffPicks below
-div.staff-picks {
+.staff-picks {
   display: flex;
   flex-direction: column;
+  border: solid 2px #bada55;
+  padding: 10px;
+
+  .abstract {
+    padding-bottom: 20px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 25px;
+  }
 
   ul {
     list-style-type: none;
+    padding: 10px;
+
+    img {
+
+    }
   }
 }
