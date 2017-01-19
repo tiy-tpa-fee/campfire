@@ -6,56 +6,56 @@ export default class StaffPicks extends Component {
     return (
 
       <div className='staff-picks'>
-        <h1>Staff Picks</h1>
+        <h2>Staff Picks</h2>
         <ul>
           <li>
-            <a href='https://github.com/tiy-tpa-fee/campfire'>
+            <a href='https://github.com/tiy-tpa-fee/campfire' target='_blank'>
               <img src='http://i.imgur.com/R57UyhD.png' width='100%' />
             </a>
             <div className='abstract'>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
               <aside>[upvotes, username, timestamp, login to comment]</aside>
-              <button>Read More.</button>
+              <a href='https://github.com/tiy-tpa-fee/campfire' target='_blank'><button>Read More</button></a>
             </div>
           </li>
           <li>
-            <a href='https://github.com/tiy-tpa-fee/campfire'>
+            <a href='https://github.com/tiy-tpa-fee/campfire' target='_blank'>
               <img src='http://i.imgur.com/uHTNkOp.png' width='100%' />
             </a>
             <div className='abstract'>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
               <aside>[upvotes, username, timestamp, login to comment]</aside>
-              <button>Read More.</button>
+              <a href='https://github.com/tiy-tpa-fee/campfire' target='_blank'><button>Read More</button></a>
             </div>
           </li>
           <li>
-            <a href='https://github.com/tiy-tpa-fee/campfire'>
+            <a href='https://github.com/tiy-tpa-fee/campfire' target='_blank'>
               <img src='http://i.imgur.com/baBL0H5.png' width='100%' />
             </a>
             <div className='abstract'>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
               <aside>[upvotes, username, timestamp, login to comment]</aside>
-              <button>Read More.</button>
+              <a href='https://github.com/tiy-tpa-fee/campfire' target='_blank'><button>Read More</button></a>
             </div>
           </li>
           <li>
-            <a href='https://github.com/tiy-tpa-fee/campfire'>
+            <a href='https://github.com/tiy-tpa-fee/campfire' target='_blank'>
               <img src='http://i.imgur.com/7pNQKAT.png' width='100%' />
             </a>
             <div className='abstract'>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
               <aside>[upvotes, username, timestamp, login to comment]</aside>
-              <button>Read More.</button>
+              <a href='https://github.com/tiy-tpa-fee/campfire' target='_blank'><button>Read More</button></a>
             </div>
           </li>
           <li>
-            <a href='https://github.com/tiy-tpa-fee/campfire'>
+            <a href='https://github.com/tiy-tpa-fee/campfire' target='_blank'>
               <img src='http://i.imgur.com/jf6Bu5Z.png' width='100%' />
             </a>
             <div className='abstract'>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
               <aside>[upvotes, username, timestamp, login to comment]</aside>
-              <button>Read More.</button>
+              <a href='https://github.com/tiy-tpa-fee/campfire' target='_blank'><button>Read More</button></a>
             </div>
           </li>
         </ul>
