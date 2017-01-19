@@ -1,9 +1,11 @@
 @import 'utility';
 
+$color-teal: hsla(180, 69%, 25%, 0.5);
+
 //
 .top-box-cat {
   display: flex;
-  border: solid 2px rebeccapurple;
+  // border: solid 2px rebeccapurple;
 
   .trending {
     flex: 2;
@@ -19,7 +21,7 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  border: solid 2px #c82323;
+  // border: solid 2px #c82323;
 
   p {
     margin-bottom: 0;
@@ -68,24 +70,55 @@
 .staff-picks {
   display: flex;
   flex-direction: column;
-  border: solid 2px #bada55;
   padding: 10px;
 
-  .abstract {
+  .abstract p {
+    overflow: hidden;
     padding-bottom: 20px;
-  }
-
-  button {
-    width: 100%;
-    margin-top: 25px;
+    max-height: 18px;
+    text-overflow: ellipsis;
+    // set height to certain number of lines?
   }
 
   ul {
     list-style-type: none;
     padding: 10px;
+  }
+}
 
-    img {
+.staff-picks {
+  button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+    border: 0;
+    border-bottom: 5px solid teal;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+    background: 0;
 
+    &::before {
+      position: absolute;
+      transition: 0.3s;
+      content: '';
+      width: 0;
+      bottom: 0;
+      background: lighten(teal, 10);
+      height: 100%;
+      left: -10%;
+      transform: skewX(20deg);
+      z-index: -1;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      &::before {
+        width: 120%;
+        left: -10%;
+      }
     }
   }
 }
