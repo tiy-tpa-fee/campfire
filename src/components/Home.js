@@ -4,11 +4,11 @@ export default class Home extends Component {
 
   render () {
     return <main>
-      <h2>Home</h2>
       <header />
+      <category />
       <div className='trending'>
         <ul>
-          <li />
+          <li><h3>Heading of Article Here</h3></li>
           <li />
           <li />
         </ul>

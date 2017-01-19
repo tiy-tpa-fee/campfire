@@ -1,5 +1,42 @@
 @import 'utility';
 
+p {
+  font-family: $font-family-paragraph;
+  font-size: $font-size-paragraph;
+}
+
+h1 {
+  font-family: $font-family-module-header;
+  font-size: $font-size-module-header;
+}
+
+h2 {
+  font-family: $font-family-module-date;
+  font-color: $font-color-module-date;
+  font-size: $font-size-module-date;
+}
+
+h3 {
+  font-size: $font-size-topic-headline;
+  text-transform: uppercase;
+}
+
+time {
+  font-family: $font-family-module-date;
+  font-color: $font-color-module-date;
+  font-size: $font-size-module-date;
+}
+
+button {
+  background-color: $button-color;
+  color: $button-font-color;
+  border-style: none;
+}
+
+li {
+  list-style: none;
+}
+
 .navBar {
   nav {
     overflow: hidden;
