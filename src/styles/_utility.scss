@@ -1,2 +1,36 @@
-$base-text-size: 16px;
-$base-font-family: sans-serif;
+//body text
+$font-size-paragraph: 14px;
+$font-family-paragraph: 'Source Sans Pro', sans-serif;
+$font-color-paragraph: black;
+
+//Module styles
+//h1
+$font-family-module-header:'Fjalla One', sans-serif;
+$font-size-module-header: 24px;
+
+//h2
+$font-size-topic-headline: 18px;
+
+//time
+$font-family-module-date: 'Source Sans Pro', sans-serif;
+$font-color-module-date: #fff;
+$font-size-module-date: 10px;
+
+
+//category styles
+$politics-color: #61e6e2;
+$tech-color: #ff7e31;
+$business-color: #5560e5;
+$entertainment-color: #ff6b65;
+$world-color: #33e596;
+$socialmedia-color: #992495;
+$lifestyle-color: #ffd80f;
+$font-size-tags: 18px;
+$font-size-category: 24px;
+
+$font-color-tags: #ededed;
+$font-family-tags: 'Source Sans Pro', sans-serif;
+
+//button style
+$button-color: black;
+$button-font-color: white;
