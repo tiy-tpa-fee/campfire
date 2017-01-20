@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
+import API from '../utils/API'
 
 // onClick submit sends ajax request to JSON
 export default class Submit extends Component {
   constructor () {
     super()
-    // this.state = {
-    //   value: '',
-    //   tag: ''
-    // }
+    this.state = {
+      categories: []
+    }
 
     // this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -16,21 +16,33 @@ export default class Submit extends Component {
   // handleChange (e) {
   //   this.setState({value: e.target.value})
   // }
+  componentDidMount () {
+    API.get('/tags?primary=true').then((data) => {
+      this.setState({categories: data})
+    })
+  }
 
   handleSubmit (e) {
-    const data = {
-      url: this.refs.url.value,
-      primary_tag: this.refs.primaryTag.value,
-      tag_list: this.refs.tagList.value,
-      description: this.refs.description.value
-    }
-    console.log(data)
     e.preventDefault()
+    const data = {
+      story: {
+        url: this.refs.url.value,
+        primary_tag: this.refs.primaryTag.value,
+        tag_list: this.refs.tagList.value,
+        description: this.refs.description.value
+      }
+    }
+    API.post('/stories', data).then((story) => {
+      console.log(story)
+    })
   }
 
   render () {
+    const options = this.state.categories.map((category, i) => {
+      return <option key={i} value={category.name}>{category.name}</option>
+    })
     return <main className='submitMain'>
-      <h2>Submit</h2>
+      <h1>Submit</h1>
       <form className='submitForm' onSubmit={this.handleSubmit}>
         <label>
           Link:
@@ -38,16 +50,18 @@ export default class Submit extends Component {
         </label>
 
         <label>
-          Tag:
+          Primary tag:
           <select className='tagSelector' ref='primaryTag'>
-            <option value='FrontEnd'>Front End</option>
-            <option value='BackEnd'>Back End</option>
+            {options}
           </select>
         </label>
 
-        <input type='text' className='otherTags' placeholder='Other tags' ref='tagList' />
+        <label>
+          Other tags:
+          <input type='text' className='otherTags' placeholder='tags...' ref='tagList' />
+        </label>
 
-        <textarea className='submitComment' rows='10' cols='30' placeholder='Comments' ref='description' />
+        <textarea className='submitComment' rows='10' cols='35' placeholder='Comments' ref='description' />
 
         <button type='submit' value='Submit'>Submit</button>
       </form>
