@@ -7,7 +7,6 @@ html {
 
 body {
   margin: 0;
-
   font: $font-size-paragraph / 1 $font-family-paragraph;
   min-height: 100%;
   display: flex;
@@ -15,12 +14,10 @@ body {
   justify-content: center;
   align-items: center;
 
-  font: $base-text-size / 1 $base-font-family;
-
-  h1, h2 {
+  h1,
+  h2 {
     // font-varian
   }
-
 }
 
 @import 'home';
