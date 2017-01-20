@@ -44,26 +44,27 @@ export default class Submit extends Component {
     return <main className='submitMain'>
       <h1>Submit</h1>
       <form className='submitForm' onSubmit={this.handleSubmit}>
-        <label>
+
+        <label className='submitLabel'>
           Link:
           <input type='text' className='submitLink' placeholder='http://...' ref='url' />
         </label>
 
-        <label>
+        <label className='submitLabel'>
           Primary tag:
           <select className='tagSelector' ref='primaryTag'>
             {options}
           </select>
         </label>
 
-        <label>
+        <label className='submitLabel'>
           Other tags:
           <input type='text' className='otherTags' placeholder='tags...' ref='tagList' />
         </label>
 
         <textarea className='submitComment' rows='10' cols='35' placeholder='Comments' ref='description' />
 
-        <button type='submit' value='Submit'>Submit</button>
+        <button type='submit' value='Submit' className='submitButton'>Submit</button>
       </form>
     </main>
   }
